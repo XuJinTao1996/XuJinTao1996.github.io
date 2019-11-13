@@ -1,12 +1,12 @@
 {
     "name": "xjt-blog",
-    "title": "xjt Blog",
+    "title": "hux Blog",
     "author": "hux",
     "version": "1.8.2",
     "homepage": "https://xujintao1996.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/XuJinTao1996/XuJinTao1996.github.io"
+        "url": "https://github.com/Huxpro/huxpro.github.io"
     },
     "devDependencies": {
         "grunt": "~0.4.5",

@@ -6,7 +6,7 @@ email: xujintao_workspace@163.com
 description: "关于云计算，算法，运维和AI | 许金涛，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @xujintao许金涛 的个人博客，与你一起发现更大的世界。"
 keyword: "许金涛, 金涛, kubernetes, 博客, openshift, devops, serverless, 微服务, web, Python, 互联网, golang"
 url: "https://xujintao1996.github.io"              # your host, for absolute URL
-baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true

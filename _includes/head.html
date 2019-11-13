@@ -19,9 +19,9 @@
     {% if page.author %}
     <meta property="article:author" content="{{ page.author }}">
     {% endif %}
-    {% for tag in page.tags %}
+    <!-- {% for tag in page.tags %}
     <meta property="article:tag" content="{{ tag }}">
-    {% endfor %}
+    {% endfor %} -->
     {% else %}
     <meta property="og:type" content="website">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -42,10 +42,10 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/xjt-blog.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/xjt-blog.min.css' | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
